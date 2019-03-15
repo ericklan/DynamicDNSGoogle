@@ -14,4 +14,5 @@ A simple shell script to update your Google Domains synthetic record, keeping it
      # m h  dom mon dow   command
      */1 * * * *  /home/user1/task/DynamicDNSGoogle/DynamicDNSGoogle.sh
 
+#### You can do this to newer syslog files:
    tail -F /var/log/syslog 
