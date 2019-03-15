@@ -7,8 +7,8 @@ A simple shell script to update your Google Domains synthetic record, keeping it
 ### the script-runner's public IP address, as resolved using a DNS
 ### lookup.
 
-example:
- command:
+ 
+####crond - daemon to execute scheduled commands
       crontab -e
 
      # m h  dom mon dow   command
