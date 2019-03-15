@@ -25,6 +25,6 @@ then
   URL="https://${USERNAME}:${PASSWORD}@domains.google.com/nic/update?hostname=${HOSTNAME}&myip=${IP}"
   curl -s $URL
 else
-  echo "Dynamic DNS for host  is up-to-date!"
-  logger "Dynamic DNS for host  is up-to-date!"
+  echo "Dynamic DNS for host is up-to-date!"
+  logger "Dynamic DNS for host is up-to-date!"
 fi
