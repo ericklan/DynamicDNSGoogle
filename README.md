@@ -8,7 +8,7 @@ A simple shell script to update your Google Domains synthetic record, keeping it
 ### lookup.
 
  
-####crond - daemon to execute scheduled commands
+#### crond - daemon to execute scheduled commands
       crontab -e
 
      # m h  dom mon dow   command
