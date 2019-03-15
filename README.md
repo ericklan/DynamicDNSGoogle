@@ -6,3 +6,12 @@ A simple shell script to update your Google Domains synthetic record, keeping it
 ### "Synthetic record". This script updates a record with
 ### the script-runner's public IP address, as resolved using a DNS
 ### lookup.
+
+example:
+ command:
+      crontab -e
+
+     # m h  dom mon dow   command
+     */1 * * * *  /home/user1/task/DynamicDNSGoogle/DynamicDNSGoogle.sh
+
+   tail -F /var/log/syslog 
