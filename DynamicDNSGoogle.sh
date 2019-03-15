@@ -20,9 +20,11 @@ HOST_IP=$(dig @8.8.8.8 +short A "$HOSTNAME" | sort | tail -1)
 if [ $HOST_IP != $IP ]
 then
   echo "Updating Dynamic DNS record for host " .  $HOST_IP . " to IP " . $IP
+  logger "Update Google DNS Record"
   #Update Google DNS Record
   URL="https://${USERNAME}:${PASSWORD}@domains.google.com/nic/update?hostname=${HOSTNAME}&myip=${IP}"
   curl -s $URL
 else
   echo "Dynamic DNS for host  is up-to-date!"
+  logger "Dynamic DNS for host  is up-to-date!"
 fi
