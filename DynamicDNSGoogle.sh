@@ -8,8 +8,8 @@
 ### Google Dynamic DNS: https://support.google.com/domains/answer/6147083
 ### Synthetic Records: https://support.google.com/domains/answer/6069273
 
-USERNAME="UtbkKrepm"
-PASSWORD="9eOKrrH"
+USERNAME="UrbkKrepm"
+PASSWORD="9rOKrrH"
 HOSTNAME="www.iodocs.com"
 
 # Resolve current public IP
